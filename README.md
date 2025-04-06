@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Novelive
-让小说活过来
-=======
-# 尘世游 - 武侠 Roguelike 游戏
+# Novelive - 让小说活过来
 
 一个基于文字字符的武侠风格 Roguelike 游戏，使用 Python 和 Pygame 开发。游戏融合了传统 Roguelike 与中国武侠小说元素，创造了一个独特的游戏体验。
 

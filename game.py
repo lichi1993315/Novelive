@@ -22,7 +22,7 @@ class Game:
         self.width, self.height = 900, 530
         # 设置窗口为可调整大小
         self.screen = pygame.display.set_mode((self.width, self.height), pygame.RESIZABLE)
-        pygame.display.set_caption("尘世游 - 武侠Roguelike")
+        pygame.display.set_caption("Novelive - 让小说活过来")
         
         # 加载支持中文和ASCII的字体，减小字体以美化UI
         self.chinese_font = get_font(is_ascii=False, size=20)
@@ -71,7 +71,7 @@ class Game:
         self.monster_move_delay = 0.5  # 怪物AI行动间隔(秒)
         
         # 系统启动日志
-        self.log_system.add("欢迎来到尘世游 - 武侠Roguelike", "system")
+        self.log_system.add("欢迎来到Novelive - 让小说活过来", "system")
         self.log_system.add("使用WASD键移动，E键交互", "system")
         self.log_system.add("窗口大小可调整，使用+/-按键或直接拖拽窗口边缘", "system")
         
